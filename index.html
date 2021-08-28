@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="stylesheet.css">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(115, 45%, 44%); text-decoration: none;}
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <script src="compute.js"></script>
+  <div class="overall">
+  <img src="images/logo.svg"  id="logo" width="100px"alt="">
+  <div class="calculator">
+  <div class="part1">
+  <div class="billing">
+  Bill<br>
+  <input type="text" id="amountinput" oninput="amount()" placeholder="0">
+  </div>
+
+  <div class="tipheading">Select Tip %</div>
+  <div class="firstthree">
+  <button id="x1" onclick="perbutton('5')">5%</button>
+  <button id="x2" onclick="perbutton('10')">10%</button>
+  <button id="x3" onclick="perbutton('15')">15%</button>
+  </div>
+  <div class="secondthree">
+  <button id="x4" onclick="perbutton('25')">25%</button>
+  <button id="x5" onclick="perbutton('50')">50%</button>
+  <input type="text" id="custominput" oninput="perinput()"placeholder="Custom">
+  </div>
+  <div class="peoplecounter">
+  Number of People<br>
+  <input type="text" id="peopleinput" oninput="people()" placeholder="0">
+  </div>
+  </div>
+  <div class="part2">
+  <div class="tipoutput">
+  <div>
+  <span style="font-size: smaller;">Tip Amount
+  /person</span>
+  </div>
+  <div id="tp">$0.00</div>
+  </div>
+  <div class="totaloutput">
+  <div><span style="font-size: small;">Total
+   /person</span></div>
+  <div id="tot">$0.00</div>
+  </div>
+  <div><button id="resetbutton" onclick="location.reload()">Reset</button></div>
+  </div>
+  </div>
+</div>
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="https://github.com/jayanthbharadwaj2601">Jayanth</a>.
+</div>
+</body>
+</html>

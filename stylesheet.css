@@ -1,0 +1,263 @@
+body
+{
+    background-color: hsl(185, 41%, 84%);
+    font-family: 'Space Mono', monospace;
+}
+#logo
+{
+    position: relative;
+    left: 21%;
+}
+#amountinput
+{
+    background-image: url("images/icon-dollar.svg");
+    background-size: 6%;
+    padding: 2% 2% 2% 2%;
+    background-repeat: no-repeat;
+    background-position: top 3px left 4%;
+    text-align: right;
+    font-family: 'Space Mono', monospace;
+    border-style: none;
+    background-color: hsl(189, 41%, 97%) ;
+    border-style: none;
+    box-shadow: 3px 3px 3px rgb(117, 114, 114);
+}
+#custominput
+{
+    text-align: center;    
+    padding: 4% 4% 4% 4%;
+    width: 25%;
+    font-family: 'Space Mono', monospace;
+    background-color: hsl(189, 41%, 97%) ;
+    border-style: none;
+    box-shadow: 3px 3px 3px rgb(117, 114, 114);
+}
+.firstthree
+{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+
+}
+#tot
+{
+    font-size: 20px;
+    color:hsl(172, 67%, 45%) ;
+    word-wrap: break-word;
+}
+#tp
+{
+    font-size: 20px;
+    color: hsl(172, 67%, 45%);
+    word-wrap: break-word;
+}
+.secondthree
+{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+button
+{
+    width: 25%;
+    padding: 4% 4% 4% 4%;
+    font-size: 80%;
+}
+#x1
+{
+    color: white;
+    background-color: hsl(183, 100%, 15%);
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgb(129, 126, 126);
+}
+#x1:hover
+{
+    color: black;
+    background-color: hsl(172, 67%, 45%);
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-delay: initial;
+    transition-property: initial;
+    cursor: pointer;
+}
+#x2
+{
+    color: white;
+    background-color: hsl(183, 100%, 15%);
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgb(129, 126, 126);
+}
+#x2:hover
+{
+    color: black;
+    background-color: hsl(172, 67%, 45%);
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;   
+}
+#x3
+{
+    color: white;
+    background-color: hsl(183, 100%, 15%);
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgb(129, 126, 126);
+}
+#x3:hover
+{
+    color: black;
+    background-color: hsl(172, 67%, 45%);
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;
+}
+#x4
+{
+    color: white;
+    background-color: hsl(183, 100%, 15%);
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgb(129, 126, 126);
+}
+#x4:hover
+{
+    color: black;
+    background-color: hsl(172, 67%, 45%);
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;
+}
+#x5
+{
+    color: white;
+    background-color: hsl(183, 100%, 15%);
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgb(129, 126, 126);
+}
+#x5:hover
+{
+    color: black;
+    background-color: hsl(172, 67%, 45%);
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;
+}
+#peopleinput
+{
+    background-image: url("images/icon-person.svg");
+    background-size: 6%;
+    padding: 0.25% 0.25% 0.25% 0.25%;
+    background-repeat: no-repeat;
+    background-position: top 3px left 1%;
+    text-align: right;
+    font-family: 'Space Mono', monospace;
+    background-color: hsl(189, 41%, 97%) ;
+    border-style: none;
+    box-shadow: 3px 3px 3px rgb(117, 114, 114);
+}
+.attribution
+{
+    position: relative;
+    word-wrap: break-word;
+    font-size: small;
+    position: relative;
+    top: 30px;
+    right: 5.5%;
+}
+.overall
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    left: 20%;
+}
+.part1
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.part2
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    color: white;
+    background-color: hsl(183, 100%, 15%);
+    padding: 2% 2% 2% 2%;
+    height: 170px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(117, 114, 114);
+}
+#resetbutton
+{
+    width: 50%;
+    background-color: hsl(172, 67%, 45%);
+    border-style: none;
+    border-radius: 10px;
+}
+#resetbutton:hover
+{
+    cursor: pointer;
+}
+.calculator
+{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2% 2% 2% 2%;
+    width: 50%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 6px 6px 6px rgb(134, 132, 132);
+}
+.tipoutput
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
+.totaloutput
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
+@media (max-width: 700px)
+{
+    .overall
+    {
+        position: relative;
+        left: 7.5%;
+    }
+    .calculator
+    {
+        width: 70%;
+        padding: 3% 3% 3% 3%;
+    }
+}
+button
+{
+    font-family: 'Space Mono', monospace;;
+}
+@media (max-width: 1022px)
+{
+    .calculator
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media (max-width: 430px)
+{
+    .overall
+    {
+        position: relative;
+        left: 5%;
+    }
+}
