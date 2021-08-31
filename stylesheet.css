@@ -71,14 +71,12 @@ button
     border-style: none;
     border-radius: 5px;
     box-shadow: 3px 3px 3px rgb(129, 126, 126);
+    transition:1s;
 }
 #x1:hover
 {
     color: black;
     background-color: hsl(172, 67%, 45%);
-    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    transition-delay: initial;
-    transition-property: initial;
     cursor: pointer;
 }
 #x2
@@ -88,12 +86,12 @@ button
     border-style: none;
     border-radius: 5px;
     box-shadow: 3px 3px 3px rgb(129, 126, 126);
+    transition:1s;
 }
 #x2:hover
 {
     color: black;
     background-color: hsl(172, 67%, 45%);
-    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
     cursor: pointer;   
 }
 #x3
@@ -103,12 +101,12 @@ button
     border-style: none;
     border-radius: 5px;
     box-shadow: 3px 3px 3px rgb(129, 126, 126);
+    transition:1s;
 }
 #x3:hover
 {
     color: black;
     background-color: hsl(172, 67%, 45%);
-    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
     cursor: pointer;
 }
 #x4
@@ -118,12 +116,12 @@ button
     border-style: none;
     border-radius: 5px;
     box-shadow: 3px 3px 3px rgb(129, 126, 126);
+    transition:1s;
 }
 #x4:hover
 {
     color: black;
     background-color: hsl(172, 67%, 45%);
-    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
     cursor: pointer;
 }
 #x5
@@ -133,12 +131,12 @@ button
     border-style: none;
     border-radius: 5px;
     box-shadow: 3px 3px 3px rgb(129, 126, 126);
+    transition:1s;
 }
 #x5:hover
 {
     color: black;
     background-color: hsl(172, 67%, 45%);
-    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
     cursor: pointer;
 }
 #peopleinput
